@@ -25,12 +25,12 @@ const server = new ApolloServer({
                     usuario
                 }
             } catch (error) {
-                console.log(error)
+                console.log(error);
             }
         }
     }
 });
 
 server.listen({ port: process.env.PORT || 4000 }).then( ({url}) => {
-    console.log(`Servidor listo en la URL ${url}`);
+    console.log(`Servidor listo en la Alban URL ${url}`);
 } )
